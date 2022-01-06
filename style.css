@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0 ;
+    text-align: justify;
 }
 p{
     color: rgb(121, 105, 105);
@@ -16,9 +17,9 @@ h1{
     color: orange;
 }
 
-section{
+.flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 #half-width{
     width: 50%;
@@ -51,4 +52,46 @@ section{
 }
 #nokta{
     margin-top: 200px;
+}
+
+
+.experience-item{
+    width: 40%;
+    padding: 2%;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+}
+
+
+#experience-item2{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-radius: 5px;
+    
+}
+
+#experience-item1{
+    border-left: 10px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    border-radius: 5px;
+    
+}
+
+.experience-area{
+    background-image: url(pictures/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: justify;
+
+}
+ .experience-area img{
+    margin-top: 400px;
+}
+
+footer p{
+    text-align: center;
 }
