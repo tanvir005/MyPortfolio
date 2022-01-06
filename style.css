@@ -18,10 +18,11 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 #half-width{
     width: 50%;
-    padding: 5%;
+    padding: 2%;
 }
 #half-width img{
     width: 80%;
@@ -39,4 +40,15 @@ section{
     background-image: url(pictures/top-banner.png);
     background-repeat: no-repeat;
 
+}
+#third-width{
+    width: 50%;
+    padding: 2%;
+}
+#third-width img{
+    width: 90%;
+
+}
+#nokta{
+    margin-top: 200px;
 }
